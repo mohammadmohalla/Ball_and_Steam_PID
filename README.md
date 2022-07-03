@@ -2,11 +2,7 @@
 Matlab/Simulink
 System:
 
-<img
-  src="1.PNG"
-  alt="Alt text"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+![1](https://user-images.githubusercontent.com/35835212/177020527-0b2c8c92-3101-4ae6-a35e-7cb2774d9fb5.PNG)
 
 Control Loop:
 
