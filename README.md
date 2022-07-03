@@ -2,7 +2,7 @@
 Matlab/Simulink
 System:
 
-![1](https://github.com/mohammadmohalla/Ball_and_Steam_PID/blob/main/Ball_and_Steam_PID/1.PNG)
+![Alt text](https://github.com/mohammadmohalla/Ball_and_Steam_PID/blob/main/Ball_and_Steam_PID/1.PNG "System")
 
 Control Loop:
 
