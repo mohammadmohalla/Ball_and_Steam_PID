@@ -2,7 +2,7 @@
 Matlab/Simulink
 System:
 
-![Alt text](Ball_and_Steam_PID/1.PNG "System")
+![Alt text](Ball_and_Steam_PID/1.PNG)
 
 Control Loop:
 
