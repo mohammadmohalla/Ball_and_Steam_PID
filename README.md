@@ -2,7 +2,7 @@
 Matlab/Simulink
 System:
 
-![1](1.PNG)
+![1](https://user-images.githubusercontent.com/35835212/177020476-5a83ae5e-14a3-447c-a344-fd3086dc4477.PNG)
 
 Control Loop:
 
