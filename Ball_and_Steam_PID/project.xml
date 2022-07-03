@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="Mohalla" on="04/06/17||01:43:02" using="SimMechanics Link Version 4.6" from="Autodesk Inventor 2015 (Build 190159000, 159)"/>
+<ModelUnits mass="lbmass" length="inch"/>
+<DataUnits mass="kilogram" length="centimeter"/>
+<RootAssembly name="project.iam" uid="project.iam_783CE71A-439F-B6A4-7A20-76B332914890" version="{8B6F7200-2B12-6637-C213-DBEE0D9EC8AF}">
+<AssemblyFile name="project.iam" type="Inventor Assembly"/>
+<InstanceTree>
+<Instance name="holder:1" grounded="true" uid="holder:1" entityUid="holder.ipt_9E850E35-4F23-F36D-BE21-93AB82EE171C">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-15.966850862478745 -24.976979742516125 5.3290705182007514e-015</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0" g="1" b="0" a="1"/>
+<Diffuse r="0" g="1" b="0" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="peam:1" uid="peam:1" entityUid="peam.ipt_1D29E294-483C-AA58-6126-D0A4B75F0A3D">
+<Transform>
+<Rotation>-0.99999999999999978 -5.0532154980743058e-016 0 -5.0532154980743058e-016 1 2.4328614233931599e-016 0 2.4328614233931595e-016 -1</Rotation>
+<Translation>21.533149137521253 -13.726979742516123 5.6288314585829811e-015</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.031372549019607843" g="0" b="1" a="1"/>
+<Diffuse r="0.031372549019607843" g="0" b="1" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="block:1" uid="block:1" entityUid="block.ipt_6A014EED-4123-0451-B327-42BD0F9D705F">
+<Transform>
+<Rotation>1.000000000000226 -5.05320512949744e-016 0 5.0532051294974331e-016 1.0000000000002254 -2.4371982320836502e-016 0 2.4371982320836497e-016 1.0000000000002254</Rotation>
+<Translation>21.533149137521132 -13.72697974251623 -1.9195617245517532e-013</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Mate:1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>peam:1</Uid>
+</InstancePath>
+<Position>2.5 -1.25 0</Position>
+<Axis>1.0000000000000002 5.3290705182007512e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>holder:1</Uid>
+</InstancePath>
+<Position>30 10 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>holder:1</Uid>
+</InstancePath>
+<Position>14.999999999999993 9.9999999999999982 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>peam:1</Uid>
+</InstancePath>
+<Position>22.500000000000004 -1.2499999999999911 0</Position>
+<Axis>-1.0000000000000002 -5.3290705182007522e-016 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>block:1</Uid>
+</InstancePath>
+<Position>-0.49999999999988631 0.49999999999988631 0</Position>
+<Axis>0 -0.99999999999977462 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>peam:1</Uid>
+</InstancePath>
+<Position>0 0.49999999999999822 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>peam:1</Uid>
+</InstancePath>
+<Position>-0.5 0.49999999999999822 0</Position>
+<Axis>-1.0000000000000002 -4.4408920985006271e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>block:1</Uid>
+</InstancePath>
+<Position>0.49999999999988631 0.49999999999988631 0</Position>
+<Axis>-0.99999999999977396 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="block.ipt" uid="block.ipt_6A014EED-4123-0451-B327-42BD0F9D705F" version="{DB934BC6-EE39-E9BC-E509-AC5DE1BBBAB0}">
+<PartFile name="block.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.018999999999999996</Mass>
+<CenterOfMass>-7.4793972185273719e-016 1.0394736842105261 0</CenterOfMass>
+<Inertia>0.012387061403508764 0.047916666666666587 0.047637061403508693 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="block_ipt_c3a29cf3.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="holder.ipt" uid="holder.ipt_9E850E35-4F23-F36D-BE21-93AB82EE171C" version="{DA4EE7BC-FF93-50C6-6F07-FF33513C63EA}">
+<PartFile name="holder.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>52.12409344502835</Mass>
+<CenterOfMass>14.901940306856924 24.949599829196359 4.7280821467899821e-005</CenterOfMass>
+<Inertia>16236.192048557992 9215.8859891600805 14749.468311748624 -0.035325353018892051 -0.034374710589709742 43.173020235806703</Inertia>
+</MassProperties>
+<GeometryFile name="holder_ipt_39b8c213.STL" type="STL"/>
+</Part>
+<Part name="peam.ipt" uid="peam.ipt_1D29E294-483C-AA58-6126-D0A4B75F0A3D" version="{9191148A-2BAA-428A-35B9-CAADBD11507C}">
+<PartFile name="peam.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>1.3628318530717929</Mass>
+<CenterOfMass>0.57629865461916119 -1.194967532252089 -9.6526444819973269e-012</CenterOfMass>
+<Inertia>1084.1252051560937 1097.4166228668471 14.843745435822347 -7.5305216660652709e-013 1.5665174601925941e-010 0.04322239909643167</Inertia>
+</MassProperties>
+<GeometryFile name="peam_ipt_59b46f79.STL" type="STL"/>
+</Part>
+</Parts>
+</SimMechanicsImportXML>
