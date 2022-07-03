@@ -19,5 +19,3 @@ Angle Result:
 Ball Position Result:
 
 ![ball](https://user-images.githubusercontent.com/35835212/177020324-401e0e8c-604f-4862-a818-71937c3ab02a.PNG)
-
-
