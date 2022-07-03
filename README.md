@@ -2,7 +2,7 @@
 Matlab/Simulink
 System:
 
-![Alt text](1.PNG)
+![1](1.PNG)
 
 Control Loop:
 
